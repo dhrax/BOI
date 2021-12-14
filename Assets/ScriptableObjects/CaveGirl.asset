@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f0fed4954adc747aa06bfbad771031, type: 3}
+  m_Name: CaveGirl
+  m_EditorClassIdentifier: 
+  name: CaveGirl
+  health: 10
+  speed: 10
+  selectionSprite: {fileID: 21300000, guid: e1b01e70ff0e8e340a809b692fe6b004, type: 3}
+  animatorController: {fileID: 22100000, guid: a7543f2ca6e12c74c9b41f22aaf9a89e, type: 2}
