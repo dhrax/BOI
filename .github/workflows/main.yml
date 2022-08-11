@@ -12,6 +12,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        unityVersion:
+          - 2021.3.0f1
         testMode:
           - EditMode
           - PlayMode
@@ -60,6 +62,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      matrix:
+        unityVersion:
+          - 2021.3.0f1
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
