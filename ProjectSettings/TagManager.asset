@@ -46,3 +46,6 @@ TagManager:
   - name: Door
     uniqueID: 2116376579
     locked: 0
+  - name: Score
+    uniqueID: 794880011
+    locked: 0

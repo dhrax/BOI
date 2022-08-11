@@ -71,6 +71,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -80,8 +82,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -102,9 +104,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -492,6 +497,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      BoyWalkDown_1: 1553940418269799609
+      BoyWalkLeft_3: 5250438378151091228
+      BoyWalkDown_2: 7500509103958437945
+      BoyWalkLeft_1: -6428935122508569504
+      BoyWalkUp_2: 1008816216748069464
+      BoyWalkDown_0: 4035959289877228764
+      BoyWalkUp_0: -982904232830982447
+      BoyWalkUp_1: 2416434504916517810
+      BoyWalkRight_1: 7144598999076838305
+      BoyWalkRight_0: -5409570386352685021
+      BoyWalkRight_2: 8030128826893041618
+      BoyWalkUp_3: 7929438602540414932
+      BoyWalkLeft_2: 11406907883527339
+      BoyWalkDown_3: 2315132830120601726
+      BoyWalkLeft_0: -350908408369970039
+      BoyWalkRight_3: -1258472680374559522
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
